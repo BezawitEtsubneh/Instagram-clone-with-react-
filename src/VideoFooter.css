@@ -1,0 +1,55 @@
+.videofooter{
+    position: relative;
+    margin-left: 20px;
+    bottom: 100px;
+}
+.videofooter_text{
+  bottom:0;
+  margin-bottom: 20px;
+  display: flex;
+  color: white;
+  position: absolute;  
+}
+.videofooter_text > h3{
+    margin-left:10px ;
+    padding-bottom: 20px;
+}
+.videofooter_text > h3 > button {
+    color: white;
+    font-weight: 700px;
+    font-transform :inherit; 
+}
+.videofooter_ticker > .ticker{
+    height: fit-content;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width:60%;
+}
+.videofooter_action {
+display: flex;
+color: white;
+place-items: center;
+justify-content: space-between;
+position: absolute;
+width: 250%;
+}
+
+.videofooter_action_left .MuiSvgIcon-root {
+    padding: 0 20px;
+  }
+.stat{
+    align-items: center;
+    display: flex;
+    margin-right: 190px;
+} .stat > p{
+    margin-left: 3px;
+} 
+.statheader{
+    display: flex;
+    /* justify-content: flex-start; */
+    flex: row;
+    margin: 0;                 /* Removes any margin between icons */
+    padding: 0;
+    align-items: center;
+    
+}
